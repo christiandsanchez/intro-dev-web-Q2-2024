@@ -1,0 +1,42 @@
+/*Selector de Tipo (etiqueta html)*/
+h4 {
+    color: red;
+    font-family: 'Courier New';
+}
+
+/*Selector de clase*/
+.title {
+    color: blue;
+    font-family: 'Courier New';
+}
+
+/*Selector de ID*/
+#subtitle {
+    color: green;
+    font-family: 'Courier New';
+}
+
+/*Selector de Descendiente*/
+div span {
+    color: purple;
+    font-weight: 900;
+}
+
+/*Selector de Hijo*/
+span>strong {
+    color: orange;
+}
+
+/*Selector de Atributo*/
+input[type="text"] {
+    color: red;
+}
+
+h4[id="general-title"] {
+    color: blue;
+}
+
+/*Selector de hermano adyacente*/
+h1+p {
+    color: green;
+}
